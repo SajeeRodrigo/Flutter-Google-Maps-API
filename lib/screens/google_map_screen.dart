@@ -18,10 +18,10 @@ class _GoogleMapScreenState extends State<GoogleMapScreen> {
       _markers.add(
         Marker(
           markerId: MarkerId('id-1'),
-          position: LatLng(22.5448131, 88.3403691),
+          position: LatLng(6.927079, 79.861244),
        
           infoWindow: InfoWindow(
-            title: 'Victoria Memorial',
+            title: 'Maradana',
             snippet: 'A Historical Place',
           )
         ),
@@ -39,7 +39,7 @@ class _GoogleMapScreenState extends State<GoogleMapScreen> {
         onMapCreated: _onMapCreated,
         markers: _markers,
         initialCameraPosition: CameraPosition(
-          target: LatLng(22.5448131, 88.3403691),
+          target: LatLng(6.927079, 79.861244),
           zoom: 15,
         ),
       ),
