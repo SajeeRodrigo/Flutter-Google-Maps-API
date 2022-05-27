@@ -8,8 +8,7 @@
 .buildlog/
 .history
 .svn/
-.xml
-.swift
+.env/
 
 # IntelliJ related
 *.iml
